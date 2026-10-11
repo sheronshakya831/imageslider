@@ -47,14 +47,6 @@ body {
     margin-bottom: 15px;
 }
 
-.description {
-    color: var(--muted-color);
-    font-size: 15px;
-    line-height: 1.8;
-    max-width: 520px;
-    margin: 0 auto;
-}
-
 /* Image */ 
 .slider {
     position: relative;
