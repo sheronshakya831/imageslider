@@ -197,10 +197,6 @@ body {
     transition: width 250ms ease, background 250ms ease;
 }
 
-.slider-dots button:hover {
-    background: var(--accent-color);
-}
-
 .slider-dots button.active {
     width: 26px;
     background: var(--accent-color);
