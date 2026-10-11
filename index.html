@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Image Slider</title>
+    <script src="https://kit.fontawesome.com/b02c09edef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="slider.js" defer></script>
+</head>
+<body>
+
+    <main class="page">
+
+        <header class="intro">
+            <p class="eyebrow">IMAGE SLIDER</p>
+            <h1>Places that make you pause</h1>
+        </header>
+
+        <section class="slider-section" aria-label="Photo gallery">
+
+            <div class="slider" id="imageSlider">
+
+                <div class="slider-track" id="sliderTrack">
+
+                    <div class="slide">
+                        <img src="asset/fall.png" alt="Beautiful autumn scenery">
+                        <div class="slide-caption">
+                            <span>01. AUTUMN</span>
+                            <h2>The beauty of fall</h2>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="asset/lake.png" alt="A peaceful lake surrounded by nature">
+                        <div class="slide-caption">
+                            <span>02. LAKE</span>
+                            <h2>Somewhere peaceful</h2>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="asset/rain.png" alt="A quiet and peaceful rainy day">
+                        <div class="slide-caption">
+                            <span>03. RAINY DAYS</span>
+                            <h2>Listening to the rain</h2>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="asset/sunrise.png" alt="A beautiful sunrise in the morning">
+                        <div class="slide-caption">
+                            <span>04. SUNRISE</span>
+                            <h2>A fresh start</h2>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button
+                    class="slider-arrow previous"
+                    id="previousButton"
+                    type="button"
+                    aria-label="Previous image">
+                    <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+                </button>
+
+                <button
+                    class="slider-arrow next"
+                    id="nextButton"
+                    type="button"
+                    aria-label="Next image">
+                    <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+
+                </button>
+
+                <div class="image-counter" id="imageCounter">
+                    01 / 04
+                </div>
+
+            </div>
+
+            <div class="slider-bottom">
+                <div class="slider-dots" id="sliderDots" aria-label="Choose an image"></div>
+            </div>
+
+        </section>
+
+        <footer class="page-footer">
+            <p>Used HTML, CSS and JavaScript</p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
